@@ -1,0 +1,45 @@
+package Assignment;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+import PreparedStatement.ConnectDB;
+
+public class BusinessLogic {
+	//CRUD Operations
+	void createData() throws SQLException {
+        Connection connection = ConnectDB.setupConnection();
+        String query = "INSERT INTO Product (id, name, cost, description) VALUES (?, ?, ?, ?)";
+        PreparedStatement myStmt = connection.prepareStatement(query);
+        myStmt.setInt(1, 666);
+        myStmt.setString(2, "Table");
+        myStmt.setInt(3, 6000);
+        myStmt.setString(4, "Hardware");
+
+        int success = myStmt.executeUpdate();
+        System.out.println("Added Successfully " + success);
+    }
+
+    void readData() throws SQLException {
+        Connection connection = ConnectDB.setupConnection();
+
+        Statement statement;
+        statement = connection.createStatement();
+        ResultSet resultSet;
+        resultSet = statement.executeQuery("SELECT * FROM Product WHERE id >= 111");
+        int id;
+        String name;
+        int cost;
+        String description;
+        while (resultSet.next()) {
+            id = resultSet.getInt("id");
+            name = resultSet.getString("name");
+            cost = resultSet.getInt("cost");
+            description = resultSet.getString("description");
+            System.out.println("id: " + id + " name: " + name + " cost: " + cost + " description: " + description);
+        }
+    }
+}

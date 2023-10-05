@@ -1,0 +1,11 @@
+import java.awt.Rectangle;
+
+public class RectangleRunner {
+
+	public static void main(String[] args) {
+		rectangle rectangle = new rectangle(23,45);
+		System.out.println(rectangle);
+
+	}
+
+}

@@ -1,0 +1,49 @@
+package Assignment;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+import PreparedStatement.ConnectDB;
+
+public class Business {
+
+			void createData() throws SQLException  {
+
+		Connection connection = ConnectDB.setupConnection();
+		String query ="INSERT INTO Product ( id, name,cost, dept ) VALUES( ?,?, ?,?)";
+//		String query = "insert values into employee(? ,? ,?)  ";
+		PreparedStatement myStmt = connection.prepareStatement(query);
+		myStmt.setInt(1, 666);
+		myStmt.setString(2, "Soap");
+		myStmt.setString(3, "8000");
+		myStmt.setString(3, "Cosmetics");
+
+		int success = myStmt.executeUpdate();
+		System.out.println("Added Successfully " + success);
+     	}
+
+			void read() throws SQLException {
+				Connection connection=ConnectDB.setupConnection();
+
+				 Statement statement;
+				 statement = connection.createStatement();
+		         ResultSet resultSet;
+		         resultSet = statement.executeQuery(
+		             "select * from Product where id>=111");
+		         int id;
+		         String name;
+		         String dept;
+		         while (resultSet.next()) {
+		             id = resultSet.getInt("id");
+		             name = resultSet.getString("name");
+		             dept=resultSet.getString("dept");
+		             System.out.println("id : " + id
+		                                + " name : " + name +"  departmet:"+ dept);
+		         }
+
+
+			}
+
+}

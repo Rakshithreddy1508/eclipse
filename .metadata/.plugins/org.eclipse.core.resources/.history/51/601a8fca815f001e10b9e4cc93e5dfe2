@@ -1,0 +1,25 @@
+package Assignment;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
+import PreparedStatement.ConnectDB;
+
+public class Business {
+
+	public void createData() throws SQLException  {
+
+		Connection connection = ConnectDB.setupConnection();
+		String query ="INSERT INTO Product ( id, name,cost, dept ) VALUES( ?,?, ?,?)";
+//		String query = "insert values into employee(? ,? ,?)  ";
+		PreparedStatement myStmt = connection.prepareStatement(query);
+		myStmt.setInt(1, 666);
+		myStmt.setString(2, "Soap");
+		myStmt.setInt(3, "8000");
+		myStmt.setString(3, "Cosmetics");
+
+		int success = myStmt.executeUpdate();
+		System.out.println("Added Successfully " + success);
+     	}
+
+}

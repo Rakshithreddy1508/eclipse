@@ -1,0 +1,21 @@
+package Assgiments;
+
+public class TesterEntity {
+
+	 
+
+	public static void main(String[] args) {
+
+		// TODO Auto-generated method stub
+
+		BussinessLogic newObj = new BussinessLogic();
+
+		newObj.bussinessLogic();
+
+ 
+
+	}
+
+ 
+
+}

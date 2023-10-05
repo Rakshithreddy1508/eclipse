@@ -1,0 +1,12 @@
+package Assgiments;
+
+public class TestController {
+
+	public static void main(String[] args) {
+		HR_Manager newObj = new HR_Manager();
+
+
+
+        newObj.process_Records();
+	}
+}

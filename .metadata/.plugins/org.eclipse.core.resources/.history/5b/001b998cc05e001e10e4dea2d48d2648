@@ -1,0 +1,37 @@
+package Assgiments;
+
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.List;
+import java.util.stream.Collectors;
+
+public class BussinessLogic {
+
+	ArrayList<EmployeeEntity> ed = new ArrayList<EmployeeEntity>();
+	void Business_logic() {
+		ed.add(new EmployeeEntity("Ram",25,15000,"R&D"));
+		ed.add(new EmployeeEntity("Suri",2,15000,"R&D"));
+		ed.add(new EmployeeEntity("Ram",25,15000,"R&D"));
+		ed.add(new EmployeeEntity("Ram",25,15000,"R&D"));
+		ed.add(new EmployeeEntity("Ram",25,15000,"R&D"));
+		ed.add(new EmployeeEntity("Ram",25,15000,"R&D"));
+
+		System.out.println("\n Displaying all the Records: ");
+
+		for (EmployeeEntity s:ed) {
+
+			System.out.println(s);
+
+		}
+
+
+		List<EmployeeEntity> sortedList = ed.stream().sorted(Comparator.comparing(EmployeeEntity::getAge)).collect(Collectors.toList());
+	      System.out.println("\n Sorted by Age:");
+	      sortedList.forEach(System.out::println);
+
+	   }
+	public void bussinessLogic() {
+		// TODO Auto-generated method stub
+		
+	}
+	}

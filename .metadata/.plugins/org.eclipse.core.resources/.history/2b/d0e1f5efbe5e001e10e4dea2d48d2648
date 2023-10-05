@@ -1,0 +1,11 @@
+package Assgiments;
+
+public class TestController {
+	
+	public static void main(String[] args) {
+		Employee e1 = new Employee("Ram ","R&D",22);
+		
+
+	}
+
+}
