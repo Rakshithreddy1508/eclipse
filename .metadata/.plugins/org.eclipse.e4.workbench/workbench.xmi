@@ -83,8 +83,9 @@
           <tags>persp.editorOnboardingCommand:Find Actions$$$&#x2318;3</tags>
           <tags>persp.editorOnboardingCommand:Show Key Assist$$$&#x21e7;&#x2318;L</tags>
           <tags>persp.editorOnboardingCommand:New$$$&#x2318;N</tags>
-          <children xsi:type="basic:PartSashContainer" xmi:id="_WgcBcGfuEe6QXMDqZtKZ9g" selectedElement="_WgcBdmfuEe6QXMDqZtKZ9g" horizontal="true">
+          <children xsi:type="basic:PartSashContainer" xmi:id="_WgcBcGfuEe6QXMDqZtKZ9g" selectedElement="_WgcBcWfuEe6QXMDqZtKZ9g" horizontal="true">
             <children xsi:type="basic:PartStack" xmi:id="_WgcBcWfuEe6QXMDqZtKZ9g" elementId="topLeft" containerData="2188" selectedElement="_WgcBcmfuEe6QXMDqZtKZ9g">
+              <tags>active</tags>
               <children xsi:type="advanced:Placeholder" xmi:id="_WgcBcmfuEe6QXMDqZtKZ9g" elementId="org.eclipse.ui.navigator.ProjectExplorer" ref="_jS_RnWM9Ee6FHYSp21Imog" closeable="true">
                 <tags>View</tags>
                 <tags>categoryTag:General</tags>
@@ -121,7 +122,6 @@
                 </children>
               </children>
               <children xsi:type="basic:PartStack" xmi:id="_WgcBfWfuEe6QXMDqZtKZ9g" elementId="bottomRight" containerData="2953" selectedElement="_WgcBh2fuEe6QXMDqZtKZ9g">
-                <tags>active</tags>
                 <children xsi:type="advanced:Placeholder" xmi:id="_WgcBfmfuEe6QXMDqZtKZ9g" elementId="org.eclipse.ui.views.AllMarkersView" ref="_jS_SV2M9Ee6FHYSp21Imog" closeable="true">
                   <tags>View</tags>
                   <tags>categoryTag:General</tags>
@@ -266,6 +266,8 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;view CommonNavigator.LINKING_ENABLED=&quot;0&quot; currentWorkingSetName=&quot;Aggregate for window 1687245132491&quot; org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets=&quot;0&quot;>&#xA;&lt;lastRecentlyUsedFilters/>&#xA;&lt;/view>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
+      <tags>active</tags>
+      <tags>activeOnClose</tags>
       <menus xmi:id="_jS_RnmM9Ee6FHYSp21Imog" elementId="org.eclipse.ui.navigator.ProjectExplorer">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -320,8 +322,6 @@
       <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;view/>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
-      <tags>active</tags>
-      <tags>activeOnClose</tags>
       <menus xmi:id="_jS_SEmM9Ee6FHYSp21Imog" elementId="org.eclipse.ui.console.ConsoleView">
         <tags>ViewMenu</tags>
         <tags>menuContribution:menu</tags>
@@ -621,8 +621,8 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_jS_SZ2M9Ee6FHYSp21Imog" elementId="org.eclipse.ui.workbench.edit">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_p0encGsvEe6OZdOtUspJwQ" elementId="undo" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/undo_edit.png" tooltip="Undo" enabled="false" command="_jTBGiWM9Ee6FHYSp21Imog"/>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_p0f1kGsvEe6OZdOtUspJwQ" elementId="redo" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/redo_edit.png" tooltip="Redo" enabled="false" command="_jTBHAmM9Ee6FHYSp21Imog"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_qCI-EGsxEe6XvNzshcnj0A" elementId="undo" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/undo_edit.png" tooltip="Undo" command="_jTBGiWM9Ee6FHYSp21Imog"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_qCKMMGsxEe6XvNzshcnj0A" elementId="redo" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/redo_edit.png" tooltip="Redo" enabled="false" command="_jTBHAmM9Ee6FHYSp21Imog"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_jS_Sa2M9Ee6FHYSp21Imog" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -639,7 +639,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_jS_SsWM9Ee6FHYSp21Imog" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_p0hqwGsvEe6OZdOtUspJwQ" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_jTBIJ2M9Ee6FHYSp21Imog"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_qCMocGsxEe6XvNzshcnj0A" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_jTBIJ2M9Ee6FHYSp21Imog"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_jS_Sv2M9Ee6FHYSp21Imog" elementId="org.eclipse.debug.ui.launchActionSet">
         <tags>Draggable</tags>
@@ -659,7 +659,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_jS_S2GM9Ee6FHYSp21Imog" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_p0mjQGsvEe6OZdOtUspJwQ" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" enabled="false" type="Check" command="_jTBH4mM9Ee6FHYSp21Imog"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_qCRg8GsxEe6XvNzshcnj0A" elementId="org.eclipse.ui.window.pinEditor" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" enabled="false" type="Check" command="_jTBH4mM9Ee6FHYSp21Imog"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_jS_S5GM9Ee6FHYSp21Imog" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -1339,7 +1339,7 @@
     <bindings xmi:id="_jS_5BWM9Ee6FHYSp21Imog" keySequence="ALT+CR" command="_jTBHJWM9Ee6FHYSp21Imog"/>
   </bindingTables>
   <bindingTables xmi:id="_jS_5B2M9Ee6FHYSp21Imog" contributorURI="platform:/fragment/org.eclipse.e4.ui.workbench.renderers.swt.cocoa" bindingContext="_jS_6NGM9Ee6FHYSp21Imog">
-    <bindings xmi:id="_pciokGsvEe6OZdOtUspJwQ" keySequence="M1+W" command="_jTBtWGM9Ee6FHYSp21Imog"/>
+    <bindings xmi:id="_pnoMUGsxEe6XvNzshcnj0A" keySequence="M1+W" command="_jTBtWGM9Ee6FHYSp21Imog"/>
   </bindingTables>
   <bindingTables xmi:id="_jS_5CWM9Ee6FHYSp21Imog" bindingContext="_jS_6OWM9Ee6FHYSp21Imog"/>
   <bindingTables xmi:id="_jS_5CmM9Ee6FHYSp21Imog" bindingContext="_jS_6OmM9Ee6FHYSp21Imog"/>
