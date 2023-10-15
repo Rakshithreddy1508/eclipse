@@ -3,7 +3,7 @@
 	<section name="BasicNewProjectResourceWizard">
 	</section>
 	<section name="NewWizardAction">
-		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jdt.ui.wizards.JavaProjectWizard"/>
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.jst.servlet.ui.project.facet.WebProjectWizard"/>
 		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
 			<item value="org.eclipse.jdt.ui.java"/>
 			<item value="org.eclipse.wst.web.ui"/>
@@ -15,6 +15,14 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="/Users/rreddy7/Downloads/SportsProductShop-Management"/>
+			<item value="/Users/rreddy7/Downloads/LuLu_02_API_Gateway"/>
+			<item value="/Users/rreddy7/Downloads/LuLu_02_Registry"/>
+			<item value="/Users/rreddy7/Downloads/LuLu_02_MS3_Shipping"/>
+			<item value="/Users/rreddy7/Downloads/LuLu_02_MS2_Customercare"/>
+			<item value="/Users/rreddy7/Downloads/LuLu_02_MS1_Product"/>
+			<item value="/Users/rreddy7/Downloads/Lulu_02_SpringSecurity"/>
+			<item value="/Users/rreddy7/Downloads/LuLu_02_SpringBoot"/>
 			<item value="/Users/rreddy7/Downloads/Lulu_02_SpringBoot_Project"/>
 			<item value="/Users/rreddy7/Downloads/Lulu_02_SpringBoot"/>
 			<item value="/Users/rreddy7/Downloads/Lulu_02_Springboot"/>
@@ -23,5 +31,29 @@
 	<section name="ChooseWorkspaceDialogSettings">
 		<item key="DIALOG_X_ORIGIN" value="562"/>
 		<item key="DIALOG_Y_ORIGIN" value="328"/>
+	</section>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+		</list>
+	</section>
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_NESTED_PROJECTS" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_COPY_PROJECT_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="/Users/rreddy7/eclipse-workspace"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value=""/>
+		</list>
+	</section>
+	<section name="SaveAsDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="571"/>
+		<item key="DIALOG_Y_ORIGIN" value="276"/>
+		<item key="DIALOG_WIDTH" value="586"/>
+		<item key="DIALOG_HEIGHT" value="528"/>
+		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
 	</section>
 </section>

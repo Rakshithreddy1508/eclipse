@@ -62,6 +62,7 @@
 	</section>
 	<section name="wizardPage">
 		<list key="groupId">
+			<item value="JDBC_ASS"/>
 			<item value="Lulu_02_SpringBoot"/>
 			<item value="Mini_Project_JDBC"/>
 			<item value="Mini Project_JDBC"/>
@@ -77,6 +78,7 @@
 			<item value="Maven Projects"/>
 		</list>
 		<list key="artifactId">
+			<item value="JDBC_ASS"/>
 			<item value="Lulu_02_SpringBoot"/>
 			<item value="Mini_Project_JDBC"/>
 			<item value="Mini Project_JDBC"/>
@@ -95,5 +97,11 @@
 	<section name="org.eclipse.m2e.core.pom.overview">
 	</section>
 	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item key="width" value="480"/>
+		<item key="height" value="494"/>
+		<item key="x" value="624"/>
+		<item key="y" value="207"/>
 	</section>
 </section>
